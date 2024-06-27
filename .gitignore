@@ -42,3 +42,5 @@ terraform.rc
 
 *.tfvars
 *.lock.hcl
+
+apt-*.json

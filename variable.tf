@@ -11,3 +11,7 @@ variable "zone" {
   description = "GCP Region Zone"
   default     = "us-central1-a"
 }
+
+variable "private_key" {
+  description = "GCP Service Account Private Key with Cloud Storage Access in base64"
+}
